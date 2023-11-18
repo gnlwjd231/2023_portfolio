@@ -1,6 +1,98 @@
 @import 'reset';
 @import 'config';
 
-h1 {
-  color: $color-primary;
+
+
+main{
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  > div{
+    width: 100vw;
+    height: 600px;
+    background:$beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    canvas:hover{
+      cursor:grab;
+    }
+  }
+}
+
+div.contents{
+  margin-top: 500px;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 40px;
+  border-radius: 30px;
+  box-shadow: -1px 0px 40px 0px #28272700;
+  section{
+    width: 840px;
+    // background: red;
+  }
+  h1{
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #333;
+  }
+}
+
+section.about-me{
+  article{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 40px;
+    .my-picture{
+      // padding: 20px;
+      width:240px;
+      height: 330px;
+      box-shadow: 0px 0 20px 3px #f1f1f1;
+      // overflow: hidden;
+      // border-radius: 50%;
+      img{
+        width:240px;
+        height: auto;
+      //   object-fit: cover;
+      }
+    }
+    .me{
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      > ul{
+        list-style: inside;
+        li{
+          line-height: 2;
+        }
+      }
+      .skills{
+        h2{
+          line-height: 2;
+          margin-bottom: 20px;
+        }
+        div ul{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            background: $light-blue;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
 }

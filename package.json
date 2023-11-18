@@ -22,5 +22,9 @@
     "@parcel/transformer-sass": "^2.10.3",
     "babel": "^6.23.0",
     "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "zdog": "^1.1.3",
+    "zfont": "^1.2.8"
   }
 }
