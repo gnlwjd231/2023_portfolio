@@ -2,7 +2,7 @@
   "name": "2023_portpolio",
   "version": "1.0.0",
   "description": "2023.12. 박휘정 프론트엔드 포트폴리오",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "dev": "parcel index.html"
   },
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/gnlwjd231/2023_portpolio#readme",
   "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
     "@parcel/transformer-sass": "^2.10.3",
+    "babel": "^6.23.0",
     "parcel": "^2.10.3"
-  },
-  "dependencies": {
-    "babel-preset-env": "^1.7.0"
   }
 }
