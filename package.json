@@ -4,7 +4,8 @@
   "description": "2023.12. 박휘정 프론트엔드 포트폴리오",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "build" : "parcel build index.html"
   },
   "repository": {
     "type": "git",
