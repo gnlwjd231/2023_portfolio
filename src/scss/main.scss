@@ -71,7 +71,8 @@ section.about-me{
         height: auto;
       //   object-fit: cover;
       }
-      button{ 
+      a{
+        box-sizing: border-box;
         color: #333;
         background: #f5f1f0;
         border-radius: 4px;
