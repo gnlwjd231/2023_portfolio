@@ -2,7 +2,6 @@
   "name": "2023_portpolio",
   "version": "1.0.0",
   "description": "2023.12. 박휘정 프론트엔드 포트폴리오",
-  "main": "index.html",
   "scripts": {
     "dev": "parcel index.html",
     "build" : "parcel build index.html"
