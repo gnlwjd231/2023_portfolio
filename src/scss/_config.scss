@@ -3,5 +3,38 @@
 $color-primary: royalblue;
 
 $beige : #f5f1f0;
+$orange: #ffcc99;
 $white : #fff;
-$light-blue: #bae1ff;
+$light-orange: #ffecca;
+$light-blue: #dceffe;
+$light-gray: #f6f6f6;
+
+
+@mixin common-ul{
+    list-style: inside;
+    li{
+        line-height: 2;
+        ul{
+            list-style: circle;
+            margin-left: 38px;
+        }
+    }
+}
+
+@mixin common-dl{
+    grid-template-columns: 170px 1fr;
+    gap: 20px;
+    padding: 10px;
+    display: grid;
+    dt,dd{
+        line-height: 2;
+    }
+}
+
+@mixin common-card{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 14px #28272714;
+    overflow: hidden;
+}
+

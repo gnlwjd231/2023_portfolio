@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>박휘정 프론트엔드 포트폴리오 2023</title>
     <script src="./src/js/main.js" type="module"></script>
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/7cead8be8f.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
 </head>
 <body>
     <main>
@@ -14,69 +18,456 @@
     </main>
     <div class="contents">
         <section class="about-me">
-            <h1>안녕하세요 ! 프론트엔드 개발자 박휘정입니다.</h1>
+            <div class="section-title">
+                <span class="material-symbols-rounded">waving_hand</span>
+                <h1>안녕하세요 ! 프론트엔드 개발자 박휘정입니다.</h1>
+            </div>
             <article>
                 <div class="my-picture">
                     <img src="./src/images/myPicture.jpg">
+                    <button>
+                        <span class="material-symbols-rounded">download</span>
+                        이력서 다운받기
+                    </button>
                 </div>
                 <div class="me">
-                    <ul>
-                        <li>현재 3년차의 개발자 커리어를 가지고 있습니다.</li>
-                        <li>프론트엔드 개발자 이전에 UI/UX 디자이너로 일했습니다.</li>
-                        <li>정확한 퍼블리싱 기술이 강점 ! 동료 디자이너의 신임을 얻었습니다.</li>
-                        <li>업무에서 가장 중요한 것은 커뮤니케이션이라고 생각합니다.</li>
-                        <li>최근에는 web 3D graphics에 흥미가 있습니다.</li>
-                    </ul>
-                    <div class="skills">
+                    <div>
+                        <h2>about me</h2>
+                        <ul>
+                            <li>현재 <span class="highlighter">3년차</span>의 개발자 커리어를 가지고 있습니다.</li>
+                            <li>프론트엔드 개발자 이전에 UI/UX 디자이너로 일했습니다.</li>
+                            <li><span class="highlighter">신속정확한 퍼블리싱</span> 기술이 강점 ! 동료 디자이너의 신임을 얻었습니다.</li>
+                            <li>업무에서 가장 중요한 것은 <span class="highlighter">커뮤니케이션</span>이라고 생각합니다.</li>
+                            <li>최근에는 <span class="highlighter">web 3D graphics</span>에 흥미가 있습니다.</li>
+                        </ul>
+                    </div>
+                    <div>
                         <h2>skills</h2>
-                        <div>
-                            <ul>
-                                <li>javaScript</li>
-                                <li>python</li>
-                                <li>ruby on rails</li>
-                                <li>jquery</li>
-                                <li>react</li>
-                            </ul>
-                        </div>
+                        <dl class="skills">
+                            <dt>Programing Language</dt>
+                            <dd>javaScript, Python, Ruby</dd>
+                            <dt>Core</dt>
+                            <dd>Ruby on Rails, Jquery, React</dd>
+                            <dt>Mark Up</dt>
+                            <dd>HTML5, CSS3, Sass</dd>
+                            <dt>Tools</dt>
+                            <dd>Github, Figma, VScode, Slack, Notion, SVN, AdobeXD, 전자정부 프레임워크, eclipse, Adobe photoshop, Adobe illustration, Adobe XD</dd>
+                        </dl>
+                    </div>
+                    <div>
+                        <h2>info</h2>
+                        <dl class="info">
+                            <dt>이름</dt>
+                            <dd>박휘정</dd>
+                            <dt>생년월일</dt>
+                            <dd>97.08.21</dd>
+                            <dt>주소지</dt>
+                            <dd>서울특별시 강동구</dd>
+                            <dt>연락처</dt>
+                            <dd>010-2327-4009</dd>
+                            <dt>email</dt>
+                            <dd>gnlwjd231@naver.com</dd>
+                            <dt>github</dt>
+                            <dd><a href="https://www.github.com/gnlwjd231" target="_blank">github.com/gnlwjd231</a></dd>
+                        </dl>
                     </div>
                 </div>
             </article>
         </section>
         <section class="career">
-            <h1>Career</h1>
-            <article>
-                <h2>Petner | 펫트너</h2>
-                <p>22.08 ~ 재직중</p>
-                <p>웹 프론트엔드 개발자</p>
-                <p>(주)펫트너는 반려동물 펫시팅 / 헬스케어 플랫폼을 운영하는 스타트업 기업입니다. 주요 서비스는 GUMP( 건강검진 전문 소프트웨어 ) | 펫트너 ( 반려동물 돌봄, 미용 플랫폼 ) 입니다.</p>
-                <h3>사용기술</h3>
-                <p>사용 언어 : JavaScript, Ruby<br/>
-                    코어 : Ruby on Rails, Jquery<br/>
-                    마크업 : HTML5, CSS3, Sass<br/>
-                    업무도구 : Github, Figma, VScode, Slack, Notion</p>
-                <h3>담당 업무</h3>
-                <p>- **웹 서비스 파트**
-    
-                    GUMP2.0의 동물병원 이용자가 예약을 관리 할 수 있는 웹 어드민 프론트엔드 개발 / 운영
-                    
-                - **백오피스 파트**
-                    
-                    GUMP2.0 사용자 관리를 목적으로 자사 운영팀과 협력사가 사용하는 백오피스 페이지 개발 / 운영
-                    
-                - **그 외**
-                    
-                    랜딩페이지 개발
-                    
-                    GUMP2.0의 콘텐츠 기획 참여</p>
+            <div class="section-title">
+                <span class="material-symbols-rounded">
+                    work
+                </span>
+                <h1>Career</h1>
+            </div>
+            <article class="petner">
+                <div class="desc">
+                    <div>
+                        <div>
+                            <img src="./src/images/logos/petner.logo.png">
+                            <h2>Petner | 펫트너</h2>
+                        </div>
+                        <div>
+                            <p>22.08 ~ 재직중</p>
+                            <p>웹 프론트엔드 개발자</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>(주)펫트너는 반려동물 펫시팅 / 헬스케어 플랫폼을 운영하는 스타트업 기업입니다.<br/>주요 서비스는 GUMP( 건강검진 전문 소프트웨어 ) | 펫트너 ( 반려동물 돌봄, 미용 플랫폼 ) 입니다.</p>
+                        <div>
+                            <h3>사용기술</h3>
+                            <dl>
+                                <dt>Programing Language</dt>
+                                <dd>javaScript, Ruby</dd>
+                                <dt>Core</dt>
+                                <dd>Ruby on Rails, Jquery</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3, Sass</dd>
+                                <dt>Tools</dt>
+                                <dd>Github, Figma, VScode, Slack, Notion</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <h3>담당 업무</h3>
+                            <ul>
+                                <li>
+                                    웹 서비스 파트
+                                    <p>GUMP2.0의 동물병원 이용자가 예약을 관리 할 수 있는 웹 어드민 프론트엔드 개발 / 운영</p>
+                                </li>
+                                <li>
+                                    백오피스 파트
+                                    <p>GUMP2.0 사용자 관리를 목적으로 자사 운영팀과 협력사가 사용하는 백오피스 페이지 개발 / 운영</p>
+                                </li>
+                                <li>
+                                    그 외
+                                    <ul>
+                                        <li>랜딩페이지 개발</li>
+                                        <li>GUMP2.0의 콘텐츠 기획 참여</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <h3>주요 프로젝트</h3>
+                    <div class="embla">
+                        <div class="embla__viewport">
+                            <div class="embla__container">
+                                <div class="embla__slide">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="./src/images/projects/gump.png">
+                                        </div>
+                                        <div class="desc">
+                                            <h3>검프 웹 어드민</h3>
+                                            <div>
+                                                <span class="badge time">
+                                                    <span class="material-symbols-rounded">calendar_today</span>
+                                                    22.08 ~ 현재
+                                                </span>
+                                                <span class="badge people">
+                                                    <span class="material-symbols-rounded">groups</span>
+                                                    프론트엔드 1명(본인) 백엔드 3명 디자이너 1명
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="./src/images/projects/gump_hospital_dashboards.png">
+                                        </div>
+                                        <div class="desc">
+                                            <h3>검프 관리 백오피스 프로그램</h3>
+                                            <div>
+                                                <span class="badge time">
+                                                    <span class="material-symbols-rounded">calendar_today</span>
+                                                    23.03 ~ 현재
+                                                </span>
+                                                <span class="badge people">
+                                                    <span class="material-symbols-rounded">groups</span>
+                                                    프론트엔드 1명(본인) 백엔드 2명 디자이너 1명
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="./src/images/projects/petner_design_sys.png">
+                                        </div>
+                                        <div class="desc">
+                                            <h3>펫트너 디자인 시스템 구축</h3>
+                                            <div>
+                                                <span class="badge time">
+                                                    <span class="material-symbols-rounded">calendar_today</span>
+                                                    23.04 ~ 23.05
+                                                </span>
+                                                <span class="badge people">
+                                                    <span class="material-symbols-rounded">groups</span>
+                                                    프론트엔드 1명(본인) 디자이너 1명
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="./src/images/projects/petner_landing_page.png">
+                                        </div>
+                                        <div class="desc">
+                                            <h3>홈페이지(랜딩페이지) 퍼블리싱</h3>
+                                            <div>
+                                                <span class="badge time">
+                                                    <span class="material-symbols-rounded">calendar_today</span>
+                                                    22.08
+                                                </span>
+                                                <span class="badge people">
+                                                    <span class="material-symbols-rounded">groups</span>
+                                                    프론트엔드 1명(본인) 백엔드 3명 디자이너 1명
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="__embla__btns">
+                            <button class="embla__prev">
+                                <span class="material-symbols-rounded">
+                                chevron_left
+                                </span>
+                            </button>
+                            <button class="embla__next">
+                                <span class="material-symbols-rounded">
+                                    chevron_right
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="embla__dots"></div>
+                </div>
             </article>
-            <article>
-                <h2>HNT | 사람과기술</h2>
-                <h3>22.08 ~ 재직중</h3>
+            <article class="hnt">
+                <div class="desc">
+                    <div>
+                        <div>
+                            <img src="./src/images/logos/HNT.logo.png">
+                            <h2>HNT | (주)사람과 기술</h2>
+                        </div>
+                        <div>
+                            <p>21.03 ~ 22.08</p>
+                            <p>웹 프론트엔드 개발자</p>
+                            <p>UI/UX 디자이너</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>(주)사람과 기술은 경남 창원에 위치한 SI기업 입니다.<br/>주요 클라이언트는 스마트팩토리 구축을 원하는 경상남도의 제조 및 생산 공장 입니다.
+                        </p>
+                        <div>
+                            <h3>사용기술</h3>
+                            <dl>
+                                <dt>Programing Language</dt>
+                                <dd> JavaScript, JAVA</dd>
+                                <dt>Core</dt>
+                                <dd>Jquery, JSP, Spring</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3</dd>
+                                <dt>Tools</dt>
+                                <dd>SVN, AdobeXD, 전자정부 프레임워크, eclipse</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <h3>담당 업무</h3>
+                            <ul>
+                                <li>
+                                    스마트공장 MES
+                                    <p>클라이언트의 요구사항에 근거하여 UI/UX 디자인 및 웹 프론트엔드 개발 / 운영</p>
+                                    <p>창원시 스마트공장 보급 지원사업 관련 발표자료 제작 및 문서 보조</p>
+                                </li>
+                                <li>
+                                    백오피스 파트
+                                    <p>사내 백오피스 프로그램 UI/UX 디자인 및 웹 프론트엔드 개발</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <h3>주요 프로젝트</h3>
+                    <div>
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="./src/images/projects/hnt_smartfactory.png">
+                            </div>
+                            <div class="desc">
+                                <h3>스마트공장 MES 웹 어플리케이션</h3>
+                                <div>
+                                    <span class="badge time">
+                                        <span class="material-symbols-rounded">calendar_today</span>
+                                        21.03 ~ 22.04
+                                    </span>
+                                    <span class="badge people">
+                                        <span class="material-symbols-rounded">groups</span>
+                                        프론트엔드&디자이너 1명(본인) 백엔드 3명
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-container no-img">
+                                <img src="./src/images/logos/hnt_dard.logo.png">
+                            </div>
+                            <div class="desc">
+                                <h3>백오피스 프로그램 개발</h3>
+                                <div>
+                                    <span class="badge time">
+                                        <span class="material-symbols-rounded">calendar_today</span>
+                                        21.05 ~ 21.09
+                                    </span>
+                                    <span class="badge people">
+                                        <span class="material-symbols-rounded">groups</span>
+                                        프론트엔드&디자이너 1명(본인) 백엔드 3명
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
         <section class="toy-project">
-            <h1>TOY-PROJECTS</h1>
-            
+            <div class="section-title">
+                <span class="material-symbols-rounded">
+                    smart_toy
+                </span>
+                <h1>Toy Projects</h1>
+            </div>
+            <div class="projects">
+                <div class="card" style="background-image:url('./src/images/projects/portfolio.png');">
+                    <div class="desc-container">
+                        <div>
+                            <h2>2023년 박휘정 포트폴리오 페이지</h2>
+                            <p>현재 보고계신 홈페이지입니다.<br/>기존의 z-dog 토이 프로젝트를 활용하여 메인을 구성했습니다.</p>
+                            <dl>
+                                <dt>소요시간</dt>
+                                <dd>3일</dd>
+                                <dt>Programing Language</dt>
+                                <dd>javaScript</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3, Sass</dd>
+                                <dt>Tools & FrameWork</dt>
+                                <dd>github, babel, parcel, embla-carousel, zdog, zfont</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a href="https://github.com/gnlwjd231/2023_portfolio" target="_blank">
+                                <i class="fa fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image:url('./src/images/projects/HTWT.png');">
+                    <div class="desc-container">
+                        <div>
+                            <h2>거긴지금날씨어때? | HTWT</h2>
+                            <p>
+                                도시 별 날씨 검색 어플리케이션입니다.
+                                <br/>React 슥듭을 위해 유튜브 튜토리얼 영상을 참고했으며, 추가 기능을 개발했습니다.
+                                <br/>클론코딩 이외에 추가된 기능은 openAPI를 통한 배경이미지 불러오기, 검색 기록 등이 있습니다.
+                            </p>
+                            <dl>
+                                <dt>소요시간</dt>
+                                <dd>4일</dd>
+                                <dt>Programing Language</dt>
+                                <dd>javaScript</dd>
+                                <dt>Core</dt>
+                                <dd>React</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3</dd>
+                                <dt>Tools & FrameWork</dt>
+                                <dd>github,axios, styled-components, openweathermap, Pexels API</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a href="https://effulgent-fenglisu-a9570a.netlify.app/" target="_blank">
+                                <span class="material-symbols-rounded">
+                                    captive_portal
+                                </span>
+                            </a>
+                            <a href="https://github.com/gnlwjd231/todaysoutfit" target="_blank">
+                                <i class="fa fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image:url('./src/images/projects/zDogProject.png');">
+                    <div class="desc-container">
+                        <div>
+                            <h2>좋아하는 사진을 z-dog으로 구현해보기</h2>
+                            <p>web 3D graphics에 대한 관심으로 시작한 프로젝트 입니다.<br/>좋아하는 사진을 바탕으로 직접 3D graphics을 적용시켰습니다.</p>
+                            <dl>
+                                <dt>소요시간</dt>
+                                <dd>7일</dd>
+                                <dt>Programing Language</dt>
+                                <dd>javaScript</dd>
+                                <dt>Core</dt>
+                                <dd>jQuery</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3</dd>
+                                <dt>Tools & FrameWork</dt>
+                                <dd>github, zdog, zfont</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a href="https://radiant-alpaca-81761e.netlify.app/" target="_blank">
+                                <span class="material-symbols-rounded">
+                                    captive_portal
+                                </span>
+                            </a>
+                            <a href="https://github.com/gnlwjd231/zDog" target="_blank">
+                                <i class="fa fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image:url('./src/images/projects/starbucks.png');">
+                    <div class="desc-container">
+                        <div>
+                            <h2>스타벅스 랜딩페이지 클론코딩</h2>
+                            <p>현재 보고계신 홈페이지를 제작했습니다.<br/>기존의 z-dog 토이 프로젝트를 활용하여 메인을 구성했습니다.</p>
+                            <dl>
+                                <dt>소요시간</dt>
+                                <dd>3일</dd>
+                                <dt>Programing Language</dt>
+                                <dd>javaScript</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3, Sass</dd>
+                                <dt>Tools & FrameWork</dt>
+                                <dd>github, babel, parcel, embla-carousel, zdog, zfont</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a href="https://loving-snyder-920a68.netlify.app/" target="_blank">
+                                <span class="material-symbols-rounded">
+                                    captive_portal
+                                </span>
+                            </a>
+                            <a href="https://github.com/gnlwjd231/Starbucks" target="_blank">
+                                <i class="fa fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image:url('./src/images/projects/YourAccountBook.jpg');">
+                    <div class="desc-container">
+                        <div>
+                            <h2>계정 가계부 | Account Book</h2>
+                            <p>현재 보고계신 홈페이지를 제작했습니다.<br/>기존의 z-dog 토이 프로젝트를 활용하여 메인을 구성했습니다.</p>
+                            <dl>
+                                <dt>소요시간</dt>
+                                <dd>3일</dd>
+                                <dt>Programing Language</dt>
+                                <dd>javaScript</dd>
+                                <dt>Mark Up</dt>
+                                <dd>HTML5, CSS3, Sass</dd>
+                                <dt>Tools & FrameWork</dt>
+                                <dd>github, babel, parcel, embla-carousel, zdog, zfont</dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <a href="https://github.com/gnlwjd231/Account-Book" target="_blank">
+                                <i class="fa fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </body>
