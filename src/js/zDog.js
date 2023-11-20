@@ -2,6 +2,7 @@ import Zdog from 'zdog'
 import Zfont from 'zfont'
 
 document.addEventListener("DOMContentLoaded", function(){
+
     const TAU = Zdog.TAU;
     var sceneStartRotation = { y: -TAU/8, x:-TAU/38 };
     let isSpinning = true;

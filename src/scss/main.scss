@@ -1,7 +1,132 @@
 @import 'reset';
 @import 'config';
 
-
+@media only screen and (max-width: 1000px) {
+  body {
+    main{
+      width: 100%;
+      > div{
+        height: inherit;
+        canvas{
+          width: 100vmin !important;
+          height: 70vmin !important;
+        }
+      }
+    }
+    div.contents{
+      margin-top: 55%;
+      padding: 60px 20px;
+      section{
+        width: 100%;
+        > article{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        &.about-me{
+          > article{
+            display:flex;
+            padding: 0;
+            > div:first-child{
+              flex-direction: column;
+              display: flex;
+              width: 100%;
+              align-items: center;
+              justify-content: center;
+              > a.resume-btn{
+                width:240px;
+              }
+            }
+            > div{
+              padding: 0;
+              width: 100%;
+              dl.info{
+                grid-template-columns: 120px 1fr;
+              }
+              dl.skills{
+                grid-template-columns: 120px 1fr;
+              }
+            }    
+          }
+        }
+        &.career{
+          article{
+            padding: 0;
+            .desc{
+              display: flex;
+              flex-direction: column;
+            }
+            >div{
+              width: 100%;
+              gap: 30px;
+              > div:first-child{
+                gap: 30px;
+                img{
+                  width: 50%;
+                }
+              }
+              > div:last-child{
+                dl{
+                  grid-template-columns: 120px 1fr;
+                }
+              }
+            }
+            &.petner div.projects{
+              overflow: hidden;
+              .embla{
+                .embla__container{
+                  padding: 0;
+                  .embla__slide{
+                    flex: 0 0 100%;
+                    .card{
+                      width: 100%;
+                      height: auto;
+                      box-shadow: none;
+                    }
+                  }
+                }
+              }
+              
+            }
+            &.hnt{
+              .projects{
+                > div{
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 20px;
+                  .card{
+                    height: auto;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.toy-project{
+          div.projects{
+            gap: 20px;
+            .card{
+              .desc-container{
+                padding: 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                align-content: flex-end;
+                align-items: flex-end;
+                gap: 24px;
+                dl{
+                  grid-template-columns: 120px 1fr;
+                }
+                div:last-child{
+                  flex-direction: row;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 main{
   position: fixed;
@@ -71,21 +196,21 @@ section.about-me{
         height: auto;
       //   object-fit: cover;
       }
-      a{
-        box-sizing: border-box;
-        color: #333;
-        background: #f5f1f0;
-        border-radius: 4px;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        width: 100%;
-        margin-top: 30px;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: 500;
-        display: flex;
-      }
+    }
+    a.resume-btn{
+      box-sizing: border-box;
+      color: #333;
+      background: #f5f1f0;
+      border-radius: 4px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      display: flex;
     }
     .me{
       padding: 0 20px;
