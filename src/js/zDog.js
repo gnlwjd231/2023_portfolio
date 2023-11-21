@@ -611,7 +611,7 @@ document.addEventListener("DOMContentLoaded", function(){
         addTo: illo,
         stroke: 1.3,
         translate: { x: 22 , z: 6,y: -4.7 },
-        color: '#8ACBFF',
+        color: '#82a6ff',
       });
 
 });
